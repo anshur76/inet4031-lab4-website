@@ -1,16 +1,9 @@
-# INET4031 - Module 6 - Working with Remote Systems
+# inet4031-lab4-website
 
-## Instructions, files, code for Lab 6.
-
-What if you aren't nearby the computer you need to work on?
-
-Up until this point, our Lab activities have been accomplished by doing them on our laptops.
-
-In this activity we explore the concept of "servers."  Which typically aren't located where we are.
-
-We have to connect to them remotely
-
-This Lab explores that concept.
+This project was created for Lab 4 of INET 4031.  
+It demonstrates how HTML and JavaScript can work together to make a simple interactive webpage.  
+The page uses two buttons and two GIFs to turn a lightbulb on and off.  
+I customized it by adding my name, changing the background color, and updating the text to make it my own version.
 
 
 
