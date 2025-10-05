@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <title>Abdulqadir's Lightbulb Demo</title>
+</head>
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
+<body style="background-color: lavender; text-align: center; font-family: Arial, sans-serif;">
 
-<p>JavaScript can change HTML attribute values.</p>
+    <h1>Abdulqadir's Interactive Lightbulb Page</h1>
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    <p>This simple webpage uses JavaScript to change an image by switching between two GIFs. 
+       When you click the buttons below, you can turn the light on or off — just like flipping a real switch!</p>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:150px; margin-top: 10px;">
 
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <br><br>
 
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    <button type="button" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+        Turn ON the Light
+    </button>
+
+    <button type="button" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+        Turn OFF the Light
+    </button>
 
 </body>
 </html>
